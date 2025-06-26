@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: #0a0f0a;
+  background-color:rgb(252, 153, 230);
   color: #e0f7e9;
   line-height: 1.6;
 }
@@ -20,7 +20,7 @@ body::before {
   left: -50%;
   width: 200%;
   height: 200%;
-  background: radial-gradient(circle, #0f3d2e 0%, #0a0f0a 100%);
+  background: radial-gradient(circle, #fb40f8 0%, #ac9cff 100%);
   z-index: -1;
   animation: glow 10s ease-in-out infinite alternate;
 }
@@ -38,9 +38,9 @@ body::before {
 
 /* Header navigation */
 header {
-  background-color: #082b1d;
+  background-color: #695eff;
   padding: 20px 0;
-  box-shadow: 0 4px 6px rgba(0, 255, 128, 0.2);
+  box-shadow: 0 4px 6px rgba(251, 36, 255, 0.2);
 }
 
 .container {
@@ -53,10 +53,9 @@ header {
 
 .logo {
   font-size: 1.8rem;
-  color: #80ffbf;
-  text-shadow: 0 0 5px #00ff99;
+  color: #000000;
+  text-shadow: 0 0 5px #ff00fb;
 }
-
 .nav-links {
   list-style: none;
   display: flex;
@@ -64,14 +63,14 @@ header {
 }
 
 .nav-links a {
-  color: #aaffdd;
+  color: #ffaaf1;
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
-  color: #00ff99;
+  color: #ff00f2;
 }
 
 /* Main content sections */
@@ -113,8 +112,8 @@ a:hover {
 footer {
   text-align: center;
   padding: 20px 0;
-  background-color: #061a12;
-  color: #88ffcc;
+  background-color: #db81ff;
+  color: #000000;
   font-size: 0.9rem;
 }
 .projects-grid {
@@ -125,7 +124,7 @@ footer {
 
 .project-card {
   background-color: #112d1c;
-  border: 1px solid #00ff99;
+  border: 1px solid #ff00c8;
   padding: 20px;
   border-radius: 8px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -134,11 +133,11 @@ footer {
 
 .project-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 0 20px rgba(0, 255, 128, 0.4);
+  box-shadow: 0 0 20px rgb(221, 0, 255);
 }
 
 .project-card h3 {
-  color: #aaffcc;
+  color: #000000;
   margin-bottom: 10px;
 }
 
@@ -146,21 +145,21 @@ footer {
   color: #d0ffe7;
 }
 .profile-container {
-  background-color: #112d1c;
+  background-color: #8093ff;
   padding: 20px;
   border-radius: 8px;
-  border: 1px solid #00ff99;
+  border: 1px solid #ffa6e4;
   box-shadow: 0 0 10px rgba(0, 255, 128, 0.2);
 }
 
 .profile-info p {
   font-size: 1.1rem;
   margin: 10px 0;
-  color: #d0ffe7;
+  color: #000000;
 }
 
 .profile-info a {
-  color: #00ff99;
+  color: #000000;
   text-decoration: none;
 }
 
